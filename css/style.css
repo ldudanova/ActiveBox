@@ -1,0 +1,355 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.p0 {
+    padding: 0;
+}
+
+
+/* BUTTONS */
+
+.my_btn {
+    background-color: #e84545;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-midi {
+    padding: 10px 30px;
+}
+
+.btn-lg {
+    padding: 15px 50px;
+}
+
+
+/* BUTTONS */
+
+
+/* Header Starts */
+
+header {
+    height: 680px;
+    background-image: url('../img/bg_header.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.nav_header_active {
+    background-image: url('../img/banner.jpg');
+}
+
+nav {
+    height: 94px;
+    line-height: 94px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    color: #e1e1e1;
+}
+
+.top_line {
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.top_line_active {
+    display: none;
+}
+
+.nav_logo {
+    padding-top: 35px;
+}
+
+.title_header {
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.title_header h1 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title_header p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+/* Header Ends */
+
+
+/* PARAMS Start */
+
+.params {
+    padding: 95px 0;
+}
+
+.param_item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.param_item i {
+    font-size: 60px;
+    color: #e84545;
+}
+
+.param_item h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.param_item p {
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+
+/* PARAMS End */
+
+
+/* WORKS Starts */
+
+.work_block {
+    position: relative;
+}
+
+.img_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 69, 69, .8);
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    display: -moz-flex;
+    display: -weblit-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    opacity: 0;
+    transition: linear .5s;
+}
+
+.work_block:hover .img_wrap,
+.work_block:focus .img_wrap {
+    opacity: 1;
+}
+
+.work_img_title {
+    margin: auto;
+}
+
+.work_img_title h4 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.work_img_title p {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+
+/* WORKS Ends */
+
+
+/* TEAM Starts */
+
+.team {
+    padding: 95px 0;
+}
+
+.team_item h4 {
+    font-weight: 700;
+}
+
+.team_item span {
+    text-transform: uppercase;
+    color: #e84545;
+    font-size: 14px;
+}
+
+.team_item p {
+    color: #6c6c6c;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.team_btn {
+    border: 1px solid #c6cacc;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.team_btn i {
+    color: #c6cacc;
+}
+
+.team_btn:hover i,
+.team_btn:focus i {
+    color: #6c6c6c;
+}
+
+
+/* TEAM Ends */
+
+
+/* DOWNLOAD Starts */
+
+.download {
+    text-align: center;
+}
+
+.download_block {
+    text-align: center;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.download_block h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.download_block p {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+
+/* DOWNLOAD Ends */
+
+
+/* FOOTER Starts */
+
+.main__footer {
+    padding: 70px 0;
+    background-color: #3a3e64;
+    color: #fff;
+}
+
+.footer_item {
+    text-align: center;
+}
+
+.footer_item h5 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer_item p {
+    font-size: 12px;
+    color: #9092a7;
+}
+
+.footer_btn {
+    background-color: transparent;
+    border: 1.5px solid;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.footer_btn:hover,
+.footer_btn:focus i {
+    color: #9092a7;
+}
+
+.copyright_footer {
+    background-color: #313454;
+    text-align: center;
+    padding: 30px 0;
+    color: #9092a7;
+}
+
+.copy_txt span {
+    color: #fff;
+}
+
+.copy_txt .heart {
+    color: #e84545;
+}
+
+
+/* FOOTER Ends */
+
+
+/* MODALS */
+
+#dlForm {
+    width: 70%;
+    margin: auto;
+}
+
+#dlForm input {
+    margin-bottom: 15px;
+}
+
+#callForm input {
+    margin-bottom: 15px;
+}
+
+#callForm {
+    width: 70%;
+    margin: auto;
+}
+
+.call_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e84545;
+    color: #fff;
+}
